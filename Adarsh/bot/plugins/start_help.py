@@ -62,7 +62,7 @@ async def start(b, m):
                 [
                 [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://t.me/SkyMoViEsBD")],
                 [InlineKeyboardButton("📺 SkY MoViEs BD 📺", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("💎WEBSITE💎", url="https://skymoviesbd.xyz")],
-                [InlineKeyboardButton("💌 SkY MoViEs BD Group 💌", url="https://t.me/SkYMoViEsBDChat")]
+                [InlineKeyboardButton("💌 SkY MoViEs BD Group 💌", url="https://t.me/SkYMoViEsBDChats")]
                 ]
             ),
             
@@ -180,7 +180,7 @@ async def help_handler(bot, message):
             [
                 [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://t.me/SkyMoViEsBD")],
                 [InlineKeyboardButton("📺 SkY MoViEs BD 📺", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("💎WEBSITE💎", url="https://skymoviesbd.xyz")],
-                [InlineKeyboardButton("💌 SkY MoViEs BD Group 💌", url="https://t.me/SkYMoViEsBDChat")]
+                [InlineKeyboardButton("💌 SkY MoViEs BD Group 💌", url="https://t.me/SkYMoViEsBDChats")]
             ]
         )
     )
@@ -230,14 +230,14 @@ async def about_handler(bot, message):
 
 <b>╭━━━━━━━〔ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
 ┃
-┣⪼<b>ʙᴏᴛ ɴᴀᴍᴇ : <a href='https://t.me/SkyMoViEsBD'>SkY MoViEs BD LINK</a></b>
-┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/SkyMoViEsBD'>SkY MoViEs BD 𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a></b>
-┣⪼<b>sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/SkyMoViEsBD'>SkY MoViEs BD</a></b>
+┣⪼<b>ʙᴏᴛ ɴᴀᴍᴇ : <a href='https://t.me/SkyMoViEsBD'>SkY MoViEs BD</a></b>
+┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/SkyMoViEsBD'>Updates</a></b>
+┣⪼<b>sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/SkyMoViEsBD'>Support</a></b>
 ┣⪼<b>sᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3</b>
-┣⪼<b>sᴏᴜʀᴄᴇ-ᴄᴏᴅᴇ : <a href='https://skymoviesbd.xyz'>SkY MoViEs BD</a></b>
-┣⪼<b>𝙼𝚘𝚟𝚒𝚎-𝙶𝚛𝚘𝚞𝚙 : <a href='https://t.me/SkYMoViEsBDChat'>SkY MoViEs BD Group</a></b>
+┣⪼<b>Website : <a href='https://skymoviesbd.xyz'>SkY MoViEs BD</a></b>
+┣⪼<b>𝙼𝚘𝚟𝚒𝚎-𝙶𝚛𝚘𝚞𝚙 : <a href='https://t.me/SkYMoViEsBDChats'>SkY MoViEs BD Group</a></b>
 ┃
 <b>╰━━━━━━━〔ᴘʟᴇᴀsʀ sᴜᴘᴘᴏʀᴛ〕</b>""",
   
