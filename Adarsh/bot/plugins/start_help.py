@@ -60,7 +60,7 @@ async def start(b, m):
             caption="**ʜᴇʟʟᴏ...⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛsɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://www.facebook.com/groups/skymoviesbd/")],
+                [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://www.facebook.com/groups/eamovieschats")],
                 [InlineKeyboardButton("📺 SkY MoViEs BD 📺", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("💎WEBSITE💎", url="https://skymoviesbd.xyz")],
                 [InlineKeyboardButton("💌 SkY MoViEs BD Group 💌", url="https://t.me/SkYMoViEsBDChats")]
                 ]
@@ -178,7 +178,7 @@ async def help_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://www.facebook.com/groups/skymoviesbd/")],
+                [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://www.facebook.com/groups/eamovieschats")],
                 [InlineKeyboardButton("📺 SkY MoViEs BD 📺", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("💎WEBSITE💎", url="https://skymoviesbd.xyz")],
                 [InlineKeyboardButton("💌 SkY MoViEs BD Group 💌", url="https://t.me/SkYMoViEsBDChats")]
             ]
@@ -232,7 +232,7 @@ async def about_handler(bot, message):
 ┃
 ┣⪼<b>ʙᴏᴛ ɴᴀᴍᴇ : <a href='https://t.me/SkyMoViEsBD'>SkY MoViEs BD</a></b>
 ┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/SkyMoViEsBD'>Updates</a></b>
-┣⪼<b>sᴜᴘᴘᴏʀᴛ : <a href='https://www.facebook.com/groups/skymoviesbd/'>Support</a></b>
+┣⪼<b>sᴜᴘᴘᴏʀᴛ : <a href='https://www.facebook.com/groups/eamovieschats'>Support</a></b>
 ┣⪼<b>sᴇʀᴠᴇʀ : Render</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3</b>
@@ -244,7 +244,7 @@ async def about_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://www.facebook.com/groups/skymoviesbd/"), InlineKeyboardButton("📺 SkY MoViEs BD 📺", url="https://t.me/SkyMoViEsBD")],
+                [InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://www.facebook.com/groups/eamovieschats"), InlineKeyboardButton("📺 SkY MoViEs BD 📺", url="https://t.me/SkyMoViEsBD")],
                 [InlineKeyboardButton("💌 SkY MoViEs BD Group 💌 ", url="https://t.me/SkYMoViEsBDChats")]
             ]
         )
