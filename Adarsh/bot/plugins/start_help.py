@@ -60,9 +60,9 @@ async def start(b, m):
             caption="**ʜᴇʟʟᴏ...⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛsɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://www.facebook.com/groups/eamovieschats")],
-                [InlineKeyboardButton("📺 SkY MoViEs BD 📺", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("💎WEBSITE💎", url="https://skymoviesbd.xyz")],
-                [InlineKeyboardButton("💌 SkY MoViEs BD Group 💌", url="https://t.me/SkYMoViEsBDChats")]
+                [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/EaMovOfficial"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://t.me/EH_UnknownPerson")],
+                [InlineKeyboardButton("📺 EA MOVIES CHANNEL 📺", url="https://t.me/EaMovOfficial"), InlineKeyboardButton("💎WEBSITE💎", url="https://eamov.com/")],
+                [InlineKeyboardButton("💌 EA MOVIES Group 💌", url="https://t.me/EaMovGroup")]
                 ]
             ),
             
@@ -123,7 +123,7 @@ async def start(b, m):
                                      Var.PORT,
                                      get_msg.id)
 
-        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡\n\n📧 ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ ♻️\n\n@SkyMoViEsBD**"
+        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡\n\n📧 ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ ♻️\n\n@EaMovOfficial**"
         await m.reply_photo(
             photo="https://raw.githubusercontent.com/eradhossain/kwichighspeedbot/main/png/320x180.png",
             caption=msg_text.format(file_name, file_size, stream_link),
@@ -178,9 +178,9 @@ async def help_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://www.facebook.com/groups/eamovieschats")],
-                [InlineKeyboardButton("📺 SkY MoViEs BD 📺", url="https://t.me/SkyMoViEsBD"), InlineKeyboardButton("💎WEBSITE💎", url="https://skymoviesbd.xyz")],
-                [InlineKeyboardButton("💌 SkY MoViEs BD Group 💌", url="https://t.me/SkYMoViEsBDChats")]
+                [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/EaMovOfficial"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://t.me/EH_UnknownPerson")],
+                [InlineKeyboardButton("📺 EA MOVIES CHANNEL 📺", url="https://t.me/EaMovOfficial"), InlineKeyboardButton("💎WEBSITE💎", url="https://eamov.com/")],
+                [InlineKeyboardButton("💌 EA MOVIES Group 💌", url="https://t.me/EaMovGroup")]
             ]
         )
     )
@@ -230,22 +230,22 @@ async def about_handler(bot, message):
 
 <b>╭━━━━━━━〔ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
 ┃
-┣⪼<b>ʙᴏᴛ ɴᴀᴍᴇ : <a href='https://t.me/SkyMoViEsBD'>SkY MoViEs BD</a></b>
-┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/SkyMoViEsBD'>Updates</a></b>
-┣⪼<b>sᴜᴘᴘᴏʀᴛ : <a href='https://www.facebook.com/groups/eamovieschats'>Support</a></b>
+┣⪼<b>ʙᴏᴛ ɴᴀᴍᴇ : <a href='https://t.me/EaMovOfficial'>EA MOVIES STORE</a></b>
+┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/EaMovOfficial'>Updates</a></b>
+┣⪼<b>sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/EH_UnknownPerson'>Support</a></b>
 ┣⪼<b>sᴇʀᴠᴇʀ : Render</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3</b>
-┣⪼<b>Website : <a href='https://skymoviesbd.xyz'>SkY MoViEs BD</a></b>
-┣⪼<b>𝙼𝚘𝚟𝚒𝚎-𝙶𝚛𝚘𝚞𝚙 : <a href='https://t.me/SkYMoViEsBDChats'>SkY MoViEs BD Group</a></b>
+┣⪼<b>Website : <a href='https://eamov.com/'>EAMOV.COM</a></b>
+┣⪼<b>𝙼𝚘𝚟𝚒𝚎-𝙶𝚛𝚘𝚞𝚙 : <a href='https://t.me/EaMovGroup'>EA MOVIES Group</a></b>
 ┃
 <b>╰━━━━━━━〔ᴘʟᴇᴀsʀ sᴜᴘᴘᴏʀᴛ〕</b>""",
   
         
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://www.facebook.com/groups/eamovieschats"), InlineKeyboardButton("📺 SkY MoViEs BD 📺", url="https://t.me/SkyMoViEsBD")],
-                [InlineKeyboardButton("💌 SkY MoViEs BD Group 💌 ", url="https://t.me/SkYMoViEsBDChats")]
+                [InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://t.me/EaMovOfficial"), InlineKeyboardButton("📺 EA MOVIES CHANNEL 📺", url="https://t.me/EaMovOfficial")],
+                [InlineKeyboardButton("💌 EA MOVIES Group 💌 ", url="https://t.me/EaMovGroup")]
             ]
         )
     )
